@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="demoXmlfile"  parallel="tests" >
+  <test name="chromeTCs" >
+      <classes>  
+         <class name="packTestng.DemoTestNG2Dec19"/>     
+         <class name="packTestng.DemoTestngDec19"/>
+         
+      </classes>
+  </test> 
+  
+  <test name="FFTCs" >
+      <classes>  
+         <class name="packTestng.DemoTestNG2Dec19"/>     
+         <class name="packTestng.DemoTestngDec19"/>
+         
+      </classes>
+  </test>
+   
+</suite>
